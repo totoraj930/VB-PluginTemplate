@@ -7,10 +7,21 @@ VirtuButtonのプラグインテンプレートです。
 - node >= 20
 - pnpm >= 9
 
-```shell
-# クローン
-git clone https://github.com/totoraj930/vb-plugin-template.git your-plugin-name
+**右上の「Use this template」ボタンからこのリポジトリをテンプレートとして新しくリポジトリを作成できます。**
 
+### git cloneで使う場合
+
+クローン
+
+```shell
+git clone https://github.com/totoraj930/VB-PluginTemplate.git your-plugin-name
+```
+
+(.gitを削除して初期化してください)
+
+依存関係の準備
+
+```shell
 # クローンしたディレクトリに移動
 cd your-plugin-name
 
